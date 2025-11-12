@@ -35,5 +35,5 @@ The results show good accuracy and recall for detecting phishing emails.
 
 ### How to run
 1. Clone or download the repository
-2. Open the file `Phishing.ipynb` in Jupyter Notebook
+2. Open the files in Jupyter Notebook
 3. Run all the cells to see the analysis and model results
