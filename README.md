@@ -29,7 +29,8 @@ The results show good accuracy and recall for detecting phishing emails.
 ---
 
 ### Results
-
+All models reached over 95% accuracy.
+The best model was the optimized Logistic Regression, with an F1-score of ~0.96.
 
 --- 
 
