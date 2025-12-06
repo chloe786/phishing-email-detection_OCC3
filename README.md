@@ -13,6 +13,9 @@ Detecting phishing emails using a public dataset and basic text analysis
 Create a simple model to detect phishing emails using text analysis.  
 The project includes data exploration, cleaning, preprocessing, and a first baseline model.
 
+We then improved the initial solution by testing different algorithms, tuning hyperparameters, and comparing their performance.
+The goal is to understand which model works best for this task and how machine learning can help identify phishing attempts more effectively.
+
 ---
 
 ### Dataset
@@ -23,13 +26,15 @@ The model predicts the correct class based on the email text.
 ---
 
 ### Project Overview
-We cleaned and prepared the dataset, then used a basic Logistic Regression model with text features.  
-The results show good accuracy and recall for detecting phishing emails.
+In this project, we cleaned the dataset and prepared the email text for machine learning.
+We used TF-IDF to turn the text into numbers, then tested several models to detect phishing emails.
 
+Overall, the models performed well, especially Logistic Regression, which gave high accuracy and recall.
 ---
 
 ### Results
-
+All models reached over 95% accuracy.
+The best model was the optimized Logistic Regression, with an F1-score of ~0.96.
 
 --- 
 
