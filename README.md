@@ -30,6 +30,7 @@ In this project, we cleaned the dataset and prepared the email text for machine 
 We used TF-IDF to turn the text into numbers, then tested several models to detect phishing emails.
 
 Overall, the models performed well, especially Logistic Regression, which gave high accuracy and recall.
+
 ---
 
 ### Results
